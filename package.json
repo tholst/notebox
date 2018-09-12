@@ -1,0 +1,22 @@
+{
+  "name": "notebox",
+  "version": "1.0.0",
+  "description": "My notes.",
+  "scripts": {
+    "hugo": "hugo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tholst/notebox.git"
+  },
+  "author": "tholst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tholst/notebox/issues"
+  },
+  "homepage": "https://github.com/tholst/notebox#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "hugo-cli": "^0.7.0"
+  }
+}

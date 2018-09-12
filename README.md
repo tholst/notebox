@@ -1,0 +1,1 @@
+`hugo` commands need to be run via npm as `npm run hugo -- <hugo params..>`
