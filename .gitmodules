@@ -1,3 +1,6 @@
 [submodule "hugo_src/themes/even"]
 	path = hugo_src/themes/even
 	url = https://github.com/olOwOlo/hugo-theme-even.git
+[submodule "hugo_src/themes/ananke"]
+	path = hugo_src/themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git

@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "My notes.",
   "scripts": {
-    "hugo": "hugo"
+    "hugo": "hugo",
+    "drafts": "hugo server -D -s hugo_src"
   },
   "repository": {
     "type": "git",
