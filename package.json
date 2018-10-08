@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "My notes.",
   "scripts": {
-    "hugo": "hugo",
+    "doh": "hugo",
+    "hugo": "cross-env-shell \"cd $INIT_CWD && hugo\"",
     "drafts": "hugo server -D -s hugo_src"
   },
   "repository": {
@@ -16,8 +17,11 @@
     "url": "https://github.com/tholst/notebox/issues"
   },
   "homepage": "https://github.com/tholst/notebox#readme",
-  "dependencies": {},
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
   "devDependencies": {
-    "hugo-cli": "git@github.com:tholst/hugo-cli.git"
+    "cross-env": "^5.2.0",
+    "hugo-cli": "^0.8.0"
   }
 }
