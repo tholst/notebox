@@ -18,6 +18,6 @@
   "homepage": "https://github.com/tholst/notebox#readme",
   "dependencies": {},
   "devDependencies": {
-    "hugo-cli": "^0.7.0"
+    "hugo-cli": "git@github.com:tholst/hugo-cli.git"
   }
 }
